@@ -1,0 +1,468 @@
+.mainContainer {
+    padding: 0;
+}
+
+
+/* ////////////////////////navbar////////////////////////////////// */
+
+nav {
+    background: black;
+    border: solid 1px black;
+    color: rgb(201, 198, 198);
+}
+
+#navbarNav {
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+#navbarNav ul li:hover {
+    background-color: crimson;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#navbar-brand {
+    color: crimson;
+}
+
+
+/* ///////////////////////////////sidebar//////////////////////// */
+
+.con-container {
+    padding: 0;
+}
+
+.sidebar {
+    width: 25%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    padding-top: 55px;
+    background: black;
+    opacity: 0.9;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px crimson;
+    color: rgb(201, 198, 198);
+}
+
+.brand a {
+    color: rgb(201, 198, 198);
+}
+
+.font-theme {
+    color: crimson;
+}
+
+.bottom-line {
+    width: 80%;
+    border-bottom: solid 5px rgb(201, 198, 198);
+    margin: 20px auto;
+}
+
+img {
+    width: 300px;
+}
+
+.profile-description {
+    padding: 30px auto;
+    margin: 20px auto;
+}
+
+.sidebar-network .sn-icon {
+    padding: 0px;
+    font-size: 1.5vw;
+}
+
+.sidebar-network .sn-icon a {
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    transform: preserve-3d;
+    cursor: pointer;
+    width: 100%;
+    float: left;
+    padding: 5px;
+    color: crimson;
+}
+
+.sidebar-network .sn-icon a:hover {
+    transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    background: rgb(201, 198, 198);
+}
+
+
+/* ////////////////////////////////home/landing//////////////////////////////////////////////////// */
+
+.landing {
+    background-image: url(../images/blake-connally-B3l0g6HLxr8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+    color: rgb(201, 198, 198);
+    width: 75%;
+    height: 100vh;
+}
+
+.landing p {
+    padding: 50px;
+    font-size: 4rem;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+
+/* //////////////////////////////////////////////about /////////////////////////// */
+
+.about {
+    text-align: center;
+    background: rgb(201, 198, 198);
+    position: relative;
+    left: 25%;
+    width: 75%;
+    height: 100vh;
+    padding: 10% 0 30px;
+}
+
+.about-me {
+    margin: 80px auto 80px;
+}
+
+.about-me p {
+    text-align: start;
+}
+
+
+/* ////////////////////////////////////////////////////portfolio ///////////////////////////////////// */
+
+.portfolio {
+    text-align: center;
+    background: rgb(201, 198, 198);
+    position: relative;
+    left: 25%;
+    width: 75%;
+    height: 120vh;
+    padding: 10% 0 30px;
+}
+
+.projects {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.btn {
+    background: crimson;
+    color: rgb(201, 198, 198);
+}
+
+.card {
+    width: 17rem;
+}
+
+.card-body {
+    background: rgb(201, 198, 198);
+}
+
+
+/* ////////////////////////////////////////// footer////////////////////////////////////////////////////// */
+
+footer {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    width: 75%;
+    height: 5vh;
+    background: crimson;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width:483px) {
+    .sidebar {
+        position: relative;
+        background: black;
+        opacity: 1;
+        height: 130vh;
+    }
+    img {
+        width: 350px;
+    }
+    .intro {
+        margin-top: 30px;
+    }
+    .profile-description {
+        padding: 60px auto;
+        margin: 20px auto;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0px;
+        font-size: 7vw;
+        margin-top: 10px;
+    }
+    .about {
+        left: 0;
+        width: 100%;
+        padding: 20% 0 30px;
+    }
+    .portfolio {
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 250vh;
+        padding: 20% 0 30px;
+    }
+    .projects {
+        margin-top: 40px;
+        padding: 30px 22% 0;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    footer {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width:483px) and (max-width: 575.98px) {
+    .sidebar {
+        position: relative;
+        background: black;
+        opacity: 1;
+        height: 100vh;
+    }
+    img {
+        width: 350px;
+    }
+    .intro {
+        margin-top: 30px;
+    }
+    .profile-description {
+        padding: 60px auto;
+        margin: 20px auto;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0px;
+        font-size: 7vw;
+        margin-top: 10px;
+    }
+    .about {
+        left: 0;
+        width: 100%;
+        padding: 20% 0 30px;
+    }
+    .portfolio {
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 230vh;
+        padding: 20% 0 30px;
+    }
+    .projects {
+        margin-top: 40px;
+        padding: 30px 22% 0;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    footer {
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sidebar {
+        position: relative;
+        background: black;
+        opacity: 1;
+        height: 105vh;
+    }
+    img {
+        width: 350px;
+    }
+    .intro {
+        margin-top: 30px;
+    }
+    .profile-description {
+        padding: 60px auto;
+        margin: 20px auto;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0px;
+        margin-top: 10px;
+        font-size: 6vw;
+    }
+    .about {
+        left: 0;
+        width: 100%;
+        padding: 20% 0 30px;
+    }
+    .portfolio {
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 230vh;
+        padding: 20% 0 30px;
+    }
+    .projects {
+        margin-top: 40px;
+        padding: 30px 28% 0;
+    }
+    .card {
+        margin-top: 30px;
+    }
+    footer {
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sidebar {
+        position: relative;
+        background: black;
+        opacity: 1;
+        height: 105vh;
+    }
+    img {
+        width: 400px;
+    }
+    .intro {
+        margin-top: 30px;
+    }
+    .profile-description {
+        padding: 0;
+        margin: 10px auto;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0;
+        font-size: 3.5vw;
+        margin: 5px auto;
+    }
+    .about {
+        left: 0;
+        width: 100%;
+        padding: 20% 0 30px;
+    }
+    .portfolio {
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 150vh;
+        padding: 20% 0 30px;
+    }
+    .projects {
+        margin: 30px 0;
+        padding: 0 10px 0 50px;
+    }
+    .card {
+        margin: 0 30px 0;
+        width: 14rem;
+    }
+    footer {
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1177px) {
+    .landing {
+        padding: 0;
+        margin-top: 0;
+    }
+    img {
+        width: 200px;
+    }
+    .profile-pic {
+        padding-left: 10px;
+    }
+    .profile-description {
+        padding: 20px 10px;
+        margin: 20px 10px;
+    }
+    .projects {
+        justify-content: space-between;
+        padding-right: 15%;
+    }
+    .card {
+        padding: 0;
+        width: 15rem;
+    }
+    .sidebar-network .sn-icon {
+        margin-top: 0;
+        font-size: 3vw;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1177px) and (max-width: 1219px) {
+    /* // Extra large devices (large desktops, 1200px and up) */
+    .profile-pic {
+        padding-left: 8px;
+    }
+    img {
+        width: 275px;
+    }
+    .profile-description {
+        margin: 10px 0 10px;
+        padding: 28px 7px;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0px;
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+    .projects {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1219px) and (max-width: 1385px) {
+    .sidebar-network .sn-icon {
+        padding: 10px;
+        font-size: 3vw;
+        margin-bottom: 15px;
+    }
+    .profile-description {
+        margin: 10px auto 10px;
+        padding: 30px 15px;
+    }
+    img {
+        width: 250px;
+    }
+    .projects {
+        justify-content: space-around;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1375px) {
+    .profile-description {
+        margin: 25px auto 10px;
+        padding: 20px 30px;
+    }
+    .sidebar-network .sn-icon {
+        padding: 0px;
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+}
